@@ -2,9 +2,9 @@ version: '3.8'
 
 services:
   nginx:
-    image: hyomin0401/myimg
+    image: hyomin0401/myimg:blue
     ports: 
-      - "8089:80"
+      - "8000:80"
     deploy:
       replicas: 3
       placement:
