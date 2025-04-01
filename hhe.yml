@@ -4,7 +4,7 @@ services:
   nginx:
     image: hyomin0401/myimg
     ports: 
-      - "8001:80"
+      - "8089:80"
     deploy:
       replicas: 3
       placement:
